@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "slug": "router",
+    "title": "Router",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "The router is the box that connects your home or office network to the internet and decides where traffic goes.",
+    "owner_why_it_matters": "If your router is old or poorly configured, it's often the weakest link attackers target first.",
+    "related": ["firewall", "modem", "guest-wifi"]
+  },
+  {
+    "id": 2,
+    "slug": "firewall",
+    "title": "Firewall",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A firewall is a traffic bouncer that decides which network connections are allowed in or out.",
+    "owner_why_it_matters": "A properly configured firewall can block most casual attacks and mistakes before they reach your devices.",
+    "related": ["router", "ports", "vpn"]
+  },
+  {
+    "id": 3,
+    "slug": "modem",
+    "title": "Modem",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "The modem is the device that speaks the language of your internet provider and brings the connection into your building.",
+    "owner_why_it_matters": "Knowing where the modem ends and your network begins helps you see what you control versus what your ISP controls.",
+    "related": ["router", "isp"]
+  },
+  {
+    "id": 4,
+    "slug": "guest-wifi",
+    "title": "Guest Wi-Fi",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Guest Wi-Fi is a separate wireless network for visitors that keeps them away from your business devices and data.",
+    "owner_why_it_matters": "Segregating guests from your main network makes it much harder for a visitor's infected device to harm your business.",
+    "related": ["router", "vlan", "zero-trust"]
+  },
+  {
+    "id": 5,
+    "slug": "vlan",
+    "title": "VLAN (Virtual LAN)",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "A VLAN is a way to slice one physical network into multiple logical networks, each with its own rules and boundaries.",
+    "owner_why_it_matters": "Using VLANs lets you isolate risky devices like cameras or guest Wi-Fi from sensitive systems like POS and accounting.",
+    "related": ["guest-wifi", "firewall", "zero-trust"]
+  },
+  {
+    "id": 6,
+    "slug": "mfa",
+    "title": "MFA (Multi-Factor Authentication)",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "MFA adds an extra step to logins, like a code on your phone, so a stolen password by itself isn't enough.",
+    "owner_why_it_matters": "Turning on MFA for email, banking, and key business apps is the single highest-value, low-effort security upgrade.",
+    "related": ["password-manager", "phishing"]
+  },
+  {
+    "id": 7,
+    "slug": "password-manager",
+    "title": "Password Manager",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A password manager is a secure vault that stores and fills your passwords so you don't reuse or write them on sticky notes.",
+    "owner_why_it_matters": "Using a password manager dramatically reduces weak passwords and makes staff onboarding/offboarding much cleaner.",
+    "related": ["mfa", "phishing"]
+  },
+  {
+    "id": 8,
+    "slug": "vpn",
+    "title": "VPN (Virtual Private Network)",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "A VPN creates an encrypted tunnel so remote staff can securely connect into your office network or cloud systems.",
+    "owner_why_it_matters": "Without a proper VPN, staff often use risky workarounds from home or public Wi-Fi that expose your data.",
+    "related": ["zero-trust", "firewall"]
+  },
+  {
+    "id": 9,
+    "slug": "backup",
+    "title": "Backup",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Backups are copies of your important data stored somewhere else so you can recover from mistakes, failures, or attacks.",
+    "owner_why_it_matters": "A tested backup can turn a ransomware attack from a business-ending event into a bad day.",
+    "related": ["ransomware", "disaster-recovery"]
+  },
+  {
+    "id": 10,
+    "slug": "ransomware",
+    "title": "Ransomware",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Ransomware is malware that encrypts your files and demands payment to unlock them.",
+    "owner_why_it_matters": "Good backups, patching, and email protection can turn ransomware from a catastrophe into a recoverable incident.",
+    "related": ["backup", "phishing", "endpoint-protection"]
+  }
+]
