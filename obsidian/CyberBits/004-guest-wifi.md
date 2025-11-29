@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Segregating guests from your main network makes it much harder for a visitor's infected device to harm your business.
 
-**Related:** [[Router]], [[VLAN (Virtual LAN)]], [[Zero Trust]]
+**Related:** [Router](001-router), [VLAN (Virtual LAN)](005-vlan), [Zero Trust](013-zero-trust)

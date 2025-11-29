@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** You can't protect or update what you don't know you have.
 
-**Related:** [[Vulnerability Scan]], [[Device Onboarding]], [[Device Offboarding]]
+**Related:** [Vulnerability Scan](069-vulnerability-scan), [Device Onboarding](096-device-onboarding), [Device Offboarding](097-device-offboarding)

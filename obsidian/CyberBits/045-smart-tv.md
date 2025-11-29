@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Putting smart TVs on guest or IoT networks keeps them from mixing with business data.
 
-**Related:** [[Guest Wi-Fi]], [[Wi-Fi Security]], [[IoT Hub]]
+**Related:** [Guest Wi-Fi](004-guest-wifi), [Wi-Fi Security](087-wifi-security), [IoT Hub](046-iot-hub)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Clear guidance reduces risky behavior and supports disciplinary action when needed.
 
-**Related:** [[Security Awareness Training]], [[Password Policy]], [[BYOD Policy]]
+**Related:** [Security Awareness Training](084-security-awareness-training), [Password Policy](065-password-policy), [BYOD Policy](091-byod-policy)

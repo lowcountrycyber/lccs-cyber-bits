@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Proper QoS and power keep calls clear so you don't miss sales or support calls.
 
-**Related:** [[Quality of Service (QoS)]], [[Power over Ethernet (PoE)]], [[Network Switch]]
+**Related:** [Quality of Service (QoS)](022-qos), [Power over Ethernet (PoE)](124-poe), [Network Switch](017-network-switch)

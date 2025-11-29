@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Spyware can capture customer data or logins without being noticed.
 
-**Related:** [[Malware]], [[Privacy Policy]], [[Endpoint Protection]]
+**Related:** [Malware](057-malware), [Privacy Policy](115-privacy-policy), [Endpoint Protection](015-endpoint-protection)

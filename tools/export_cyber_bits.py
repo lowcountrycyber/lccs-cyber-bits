@@ -21,17 +21,25 @@ def load_cyber_bits() -> list[dict]:
 CYBER_BITS = load_cyber_bits()
 
 
-def slug_to_wikilink(slug: str) -> str:
-    """Convert slug to Obsidian [[Title]] link. We’ll look up the title."""
+def slug_to_md_link(slug: str) -> str:
+    """
+    Convert slug to a Markdown link pointing to the corresponding note.
+    GitHub Pages needs links without the `.md` extension.
+    """
     term = next((t for t in CYBER_BITS if t["slug"] == slug), None)
-    return f"[[{term['title']}]]" if term else ""
+    if not term:
+        return ""
+
+    filename_no_ext = f"{term['id']:03d}-{term['slug']}"
+    return f"[{term['title']}]({filename_no_ext})"
 
 
 def render_markdown(term: dict) -> str:
-    """Render one Cyber Bit as an Obsidian-ready Markdown note."""
+    """Render one Cyber Bit as Obsidian + GitHub Pages compatible Markdown."""
     related_links = [
-        slug_to_wikilink(s) for s in term.get("related", []) if slug_to_wikilink(s)
+        slug_to_md_link(s) for s in term.get("related", []) if slug_to_md_link(s)
     ]
+
     related_block = ""
     if related_links:
         related_block = "\n\n**Related:** " + ", ".join(related_links)

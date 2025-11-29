@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** It is a primary shield against ransomware and other malware landing on employee devices.
 
-**Related:** [[Ransomware]], [[Malware]], [[Patching]], [[Auto-Updates]]
+**Related:** [Ransomware](010-ransomware), [Malware](057-malware), [Patching](067-patching), [Auto-Updates](068-auto-updates)

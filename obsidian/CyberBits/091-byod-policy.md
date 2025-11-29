@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Rules for personal devices prevent data leaks and support headaches.
 
-**Related:** [[Remote Work Policy]], [[Mobile Device Management (MDM)]], [[Acceptable Use Policy]]
+**Related:** [Remote Work Policy](090-remote-work-policy), [Mobile Device Management (MDM)](092-mobile-device-management), [Acceptable Use Policy](098-acceptable-use-policy)

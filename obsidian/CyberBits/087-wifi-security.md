@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Secure Wi-Fi keeps neighbors or attackers from snooping on your traffic.
 
-**Related:** [[Wi-Fi SSID]], [[Guest Wi-Fi]], [[WPA3]]
+**Related:** [Wi-Fi SSID](019-wifi-ssid), [Guest Wi-Fi](004-guest-wifi), [WPA3](088-wpa3)

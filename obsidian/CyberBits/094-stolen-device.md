@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Planning for lost devices reduces legal and reputational fallout.
 
-**Related:** [[Disk Encryption]], [[Remote Wipe]], [[Laptop]]
+**Related:** [Disk Encryption](072-disk-encryption), [Remote Wipe](093-remote-wipe), [Laptop](041-laptop)

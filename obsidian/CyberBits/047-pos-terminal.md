@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Segregating POS devices reduces the chance of card data theft and keeps you compliant.
 
-**Related:** [[PCI DSS]], [[Firewall]], [[VLAN (Virtual LAN)]]
+**Related:** [PCI DSS](123-pci-dss), [Firewall](002-firewall), [VLAN (Virtual LAN)](005-vlan)

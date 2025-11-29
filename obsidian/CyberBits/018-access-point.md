@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Good access points give stable coverage and let you separate guest and staff networks.
 
-**Related:** [[Router]], [[Wi-Fi SSID]], [[Wi-Fi Security]]
+**Related:** [Router](001-router), [Wi-Fi SSID](019-wifi-ssid), [Wi-Fi Security](087-wifi-security)

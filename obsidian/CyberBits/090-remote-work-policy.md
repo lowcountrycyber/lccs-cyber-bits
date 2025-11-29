@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Clear rules reduce risk when staff connect from home networks.
 
-**Related:** [[VPN (Virtual Private Network)]], [[MFA (Multi-Factor Authentication)]], [[BYOD Policy]]
+**Related:** [VPN (Virtual Private Network)](008-vpn), [MFA (Multi-Factor Authentication)](006-mfa), [BYOD Policy](091-byod-policy)

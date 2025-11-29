@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Tracking service accounts prevents forgotten logins that attackers can abuse.
 
-**Related:** [[API Key Management]], [[Role-Based Access Control (RBAC)]], [[Logging]]
+**Related:** [API Key Management](111-api-key-management), [Role-Based Access Control (RBAC)](076-role-based-access-control), [Logging](080-logging)

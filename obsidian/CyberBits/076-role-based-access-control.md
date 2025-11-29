@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Roles keep access consistent and make onboarding and offboarding faster.
 
-**Related:** [[Least Privilege]], [[Standard Account]], [[Service Account]]
+**Related:** [Least Privilege](075-least-privilege), [Standard Account](078-standard-account), [Service Account](079-service-account)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Filtering stops many malware and phishing sites before a page even loads.
 
-**Related:** [[DNS]], [[Malware]], [[Phishing]]
+**Related:** [DNS](025-dns), [Malware](057-malware), [Phishing](014-phishing)

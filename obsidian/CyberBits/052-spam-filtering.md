@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Fewer bad emails means fewer chances for staff to click something dangerous.
 
-**Related:** [[Phishing]], [[Email Filtering]], [[DMARC]]
+**Related:** [Phishing](014-phishing), [Email Filtering](053-email-filtering), [DMARC](056-dmarc)

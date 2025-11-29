@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Planning ahead keeps revenue and customer service running during outages.
 
-**Related:** [[Disaster Recovery]], [[Backup]], [[Incident Response]]
+**Related:** [Disaster Recovery](016-disaster-recovery), [Backup](009-backup), [Incident Response](083-incident-response)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Automatic addressing prevents conflicts that knock devices offline.
 
-**Related:** [[Router]], [[IP Addressing]], [[Static IP]]
+**Related:** [Router](001-router), [IP Addressing](128-ip-addressing), [Static IP](089-static-ip)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** It keeps remote access working even when your ISP changes your IP.
 
-**Related:** [[Remote Access]], [[Port Forwarding]], [[DNS]]
+**Related:** [Remote Access](030-remote-access), [Port Forwarding](029-port-forwarding), [DNS](025-dns)

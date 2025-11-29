@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Consistent onboarding prevents misconfigurations that lead to downtime or breaches.
 
-**Related:** [[Asset Inventory]], [[Patching]], [[Standard Account]]
+**Related:** [Asset Inventory](095-asset-inventory), [Patching](067-patching), [Standard Account](078-standard-account)

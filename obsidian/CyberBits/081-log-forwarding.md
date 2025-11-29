@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Central logs make it easier to catch problems and meet compliance needs.
 
-**Related:** [[Logging]], [[SIEM]], [[Monitoring Alerts]]
+**Related:** [Logging](080-logging), [SIEM](082-siem), [Monitoring Alerts](107-monitoring-alerts)

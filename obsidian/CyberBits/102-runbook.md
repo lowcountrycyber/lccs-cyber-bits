@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Runbooks make responses repeatable so fixes are fast and consistent.
 
-**Related:** [[Incident Response]], [[Backup]], [[Documentation]]
+**Related:** [Incident Response](083-incident-response), [Backup](009-backup), [Documentation](101-documentation)

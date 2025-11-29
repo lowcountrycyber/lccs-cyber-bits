@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Reused passwords let attackers hop from old breaches into your business accounts.
 
-**Related:** [[Password Manager]], [[MFA (Multi-Factor Authentication)]], [[Password Policy]]
+**Related:** [Password Manager](007-password-manager), [MFA (Multi-Factor Authentication)](006-mfa), [Password Policy](065-password-policy)

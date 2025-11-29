@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Automations save time and reduce mistakes in repetitive tasks.
 
-**Related:** [[Webhook]], [[API Key Management]], [[Scheduled Tasks]]
+**Related:** [Webhook](110-webhook), [API Key Management](111-api-key-management), [Scheduled Tasks](114-scheduled-tasks)

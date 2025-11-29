@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Protecting keys prevents outsiders from abusing your integrations or data.
 
-**Related:** [[Service Account]], [[Secrets Management]], [[Automation Platform]]
+**Related:** [Service Account](079-service-account), [Secrets Management](112-secrets-management), [Automation Platform](109-automation-platform)

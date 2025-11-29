@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Offsite backups protect you if local devices are stolen, flooded, or encrypted by ransomware.
 
-**Related:** [[Backup]], [[Disaster Recovery]], [[Network-Attached Storage (NAS)]]
+**Related:** [Backup](009-backup), [Disaster Recovery](016-disaster-recovery), [Network-Attached Storage (NAS)](038-nas)

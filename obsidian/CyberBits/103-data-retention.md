@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Keeping data only as long as needed reduces legal risk and storage cost.
 
-**Related:** [[Data Classification]], [[Backup]], [[Compliance Audit]]
+**Related:** [Data Classification](074-data-classification), [Backup](009-backup), [Compliance Audit](116-compliance-audit)

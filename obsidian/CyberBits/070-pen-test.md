@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Pen tests reveal gaps so you can fix them before criminals exploit them.
 
-**Related:** [[Vulnerability Scan]], [[Firewall]], [[Incident Response]]
+**Related:** [Vulnerability Scan](069-vulnerability-scan), [Firewall](002-firewall), [Incident Response](083-incident-response)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Smart locks let you grant or revoke access quickly without rekeying.
 
-**Related:** [[Access Control System]], [[Physical Security]], [[Wi-Fi Security]]
+**Related:** [Access Control System](125-access-control-system), [Physical Security](086-physical-security), [Wi-Fi Security](087-wifi-security)

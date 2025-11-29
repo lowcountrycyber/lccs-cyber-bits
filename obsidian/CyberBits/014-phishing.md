@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Most breaches start with a phish, so training and filters prevent expensive scams.
 
-**Related:** [[MFA (Multi-Factor Authentication)]], [[Password Manager]], [[Email Filtering]], [[Security Awareness Training]]
+**Related:** [MFA (Multi-Factor Authentication)](006-mfa), [Password Manager](007-password-manager), [Email Filtering](053-email-filtering), [Security Awareness Training](084-security-awareness-training)

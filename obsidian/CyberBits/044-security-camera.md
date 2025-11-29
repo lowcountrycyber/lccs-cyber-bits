@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Cameras should be isolated so a hacked camera can't reach business systems.
 
-**Related:** [[VLAN (Virtual LAN)]], [[Network Video Recorder (NVR)]], [[Cloud Backup]]
+**Related:** [VLAN (Virtual LAN)](005-vlan), [Network Video Recorder (NVR)](122-nvr), [Cloud Backup](118-cloud-backup)

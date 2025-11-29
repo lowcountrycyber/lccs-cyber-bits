@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** MDM lets you wipe lost phones and ensure work data stays protected.
 
-**Related:** [[BYOD Policy]], [[Remote Wipe]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [BYOD Policy](091-byod-policy), [Remote Wipe](093-remote-wipe), [MFA (Multi-Factor Authentication)](006-mfa)

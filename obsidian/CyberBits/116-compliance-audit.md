@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Regular audits catch gaps before regulators or customers do.
 
-**Related:** [[Vendor Management]], [[Data Retention]], [[Incident Response]]
+**Related:** [Vendor Management](104-vendor-management), [Data Retention](103-data-retention), [Incident Response](083-incident-response)

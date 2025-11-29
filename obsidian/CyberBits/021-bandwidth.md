@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Too little bandwidth means slow cloud apps and choppy calls that frustrate customers and staff.
 
-**Related:** [[Quality of Service (QoS)]], [[Internet Service Provider (ISP)]], [[VPN (Virtual Private Network)]]
+**Related:** [Quality of Service (QoS)](022-qos), [Internet Service Provider (ISP)](011-isp), [VPN (Virtual Private Network)](008-vpn)

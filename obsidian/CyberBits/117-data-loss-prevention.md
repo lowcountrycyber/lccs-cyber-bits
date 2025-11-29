@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** DLP helps stop accidental leaks of customer or financial information.
 
-**Related:** [[Email Encryption]], [[USB Security]], [[Logging]]
+**Related:** [Email Encryption](073-email-encryption), [USB Security](085-usb-security), [Logging](080-logging)

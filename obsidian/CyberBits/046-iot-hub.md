@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Keeping IoT gear segmented prevents a hacked gadget from reaching business apps.
 
-**Related:** [[Wi-Fi Security]], [[VLAN (Virtual LAN)]], [[Smart TV]]
+**Related:** [Wi-Fi Security](087-wifi-security), [VLAN (Virtual LAN)](005-vlan), [Smart TV](045-smart-tv)

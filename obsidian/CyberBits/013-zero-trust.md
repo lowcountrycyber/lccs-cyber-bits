@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Assuming nothing is safe by default limits how far an attacker can move if they get in.
 
-**Related:** [[VLAN (Virtual LAN)]], [[VPN (Virtual Private Network)]], [[Least Privilege]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [VLAN (Virtual LAN)](005-vlan), [VPN (Virtual Private Network)](008-vpn), [Least Privilege](075-least-privilege), [MFA (Multi-Factor Authentication)](006-mfa)

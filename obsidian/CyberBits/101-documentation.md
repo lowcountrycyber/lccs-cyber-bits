@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Good docs speed up troubleshooting and onboarding new staff or vendors.
 
-**Related:** [[Change Management]], [[Runbook]], [[Incident Response]]
+**Related:** [Change Management](100-change-management), [Runbook](102-runbook), [Incident Response](083-incident-response)

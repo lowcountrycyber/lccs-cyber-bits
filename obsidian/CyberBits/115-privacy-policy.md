@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Clear privacy practices build trust and reduce legal exposure.
 
-**Related:** [[Data Classification]], [[Data Retention]], [[Spyware]]
+**Related:** [Data Classification](074-data-classification), [Data Retention](103-data-retention), [Spyware](061-spyware)

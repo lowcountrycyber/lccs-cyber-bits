@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Understanding addressing helps you troubleshoot why devices can't reach each other.
 
-**Related:** [[DHCP]], [[IPv4]], [[IPv6]]
+**Related:** [DHCP](024-dhcp), [IPv4](032-ipv4), [IPv6](033-ipv6)

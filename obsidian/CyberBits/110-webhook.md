@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Webhooks let systems talk to each other instantly without polling or manual exports.
 
-**Related:** [[Automation Platform]], [[API Key Management]], [[Monitoring Alerts]]
+**Related:** [Automation Platform](109-automation-platform), [API Key Management](111-api-key-management), [Monitoring Alerts](107-monitoring-alerts)

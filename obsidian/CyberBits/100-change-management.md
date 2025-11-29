@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Structured changes reduce outages from rushed or untested updates.
 
-**Related:** [[Patching]], [[Documentation]], [[Runbook]]
+**Related:** [Patching](067-patching), [Documentation](101-documentation), [Runbook](102-runbook)

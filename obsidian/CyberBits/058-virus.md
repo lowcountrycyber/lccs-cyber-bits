@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Viruses can corrupt data and slow systems, hurting productivity.
 
-**Related:** [[Malware]], [[Patching]], [[Endpoint Protection]]
+**Related:** [Malware](057-malware), [Patching](067-patching), [Endpoint Protection](015-endpoint-protection)

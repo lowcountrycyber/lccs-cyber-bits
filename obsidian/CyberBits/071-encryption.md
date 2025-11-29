@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Encrypting data in transit and at rest protects customer and financial info.
 
-**Related:** [[SSL/TLS]], [[Disk Encryption]], [[VPN (Virtual Private Network)]]
+**Related:** [SSL/TLS](034-ssl-tls), [Disk Encryption](072-disk-encryption), [VPN (Virtual Private Network)](008-vpn)

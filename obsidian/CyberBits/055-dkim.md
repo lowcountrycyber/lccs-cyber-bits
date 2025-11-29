@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Signed email builds trust and helps filters catch forgeries.
 
-**Related:** [[SPF]], [[DMARC]], [[Email Filtering]]
+**Related:** [SPF](054-spf), [DMARC](056-dmarc), [Email Filtering](053-email-filtering)

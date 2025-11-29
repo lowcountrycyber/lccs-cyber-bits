@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Fast alerts reduce downtime and lost revenue.
 
-**Related:** [[Logging]], [[Uptime Monitoring]], [[Remote Monitoring and Management (RMM)]]
+**Related:** [Logging](080-logging), [Uptime Monitoring](106-uptime-monitoring), [Remote Monitoring and Management (RMM)](108-rmm)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Knowing what is sensitive guides who can access it and how it is protected.
 
-**Related:** [[Data Retention]], [[Privacy Policy]], [[Least Privilege]]
+**Related:** [Data Retention](103-data-retention), [Privacy Policy](115-privacy-policy), [Least Privilege](075-least-privilege)

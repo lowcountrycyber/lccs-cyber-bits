@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Securing remote desktop with VPN and MFA prevents easy break-ins.
 
-**Related:** [[Remote Access]], [[VPN (Virtual Private Network)]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [Remote Access](030-remote-access), [VPN (Virtual Private Network)](008-vpn), [MFA (Multi-Factor Authentication)](006-mfa)

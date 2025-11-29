@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Long passphrases are stronger and harder to guess or crack.
 
-**Related:** [[Password Manager]], [[Password Policy]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [Password Manager](007-password-manager), [Password Policy](065-password-policy), [MFA (Multi-Factor Authentication)](006-mfa)

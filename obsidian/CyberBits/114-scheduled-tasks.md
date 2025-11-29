@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Automating routine jobs like backups reduces human error and saves time.
 
-**Related:** [[Auto-Updates]], [[Backup]], [[Automation Platform]]
+**Related:** [Auto-Updates](068-auto-updates), [Backup](009-backup), [Automation Platform](109-automation-platform)

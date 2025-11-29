@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Early alerts let you fix outages before customers notice.
 
-**Related:** [[Monitoring Alerts]], [[Service Level Agreement (SLA)]], [[Remote Monitoring and Management (RMM)]]
+**Related:** [Monitoring Alerts](107-monitoring-alerts), [Service Level Agreement (SLA)](105-sla), [Remote Monitoring and Management (RMM)](108-rmm)

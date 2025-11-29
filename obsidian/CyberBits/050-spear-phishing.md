@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Targeted scams often bypass generic filters, so training and MFA are key.
 
-**Related:** [[Phishing]], [[Business Email Compromise (BEC)]], [[Security Awareness Training]]
+**Related:** [Phishing](014-phishing), [Business Email Compromise (BEC)](051-bec), [Security Awareness Training](084-security-awareness-training)

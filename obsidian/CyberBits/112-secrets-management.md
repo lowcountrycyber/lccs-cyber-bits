@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Centralized secrets reduce hardcoded passwords and accidental leaks.
 
-**Related:** [[API Key Management]], [[Secrets Vault]], [[Password Manager]]
+**Related:** [API Key Management](111-api-key-management), [Secrets Vault](113-vault), [Password Manager](007-password-manager)

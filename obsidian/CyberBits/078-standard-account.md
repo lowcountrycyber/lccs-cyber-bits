@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Working in standard accounts lowers the blast radius of mistakes or malware.
 
-**Related:** [[Admin Account]], [[Role-Based Access Control (RBAC)]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [Admin Account](077-admin-account), [Role-Based Access Control (RBAC)](076-role-based-access-control), [MFA (Multi-Factor Authentication)](006-mfa)

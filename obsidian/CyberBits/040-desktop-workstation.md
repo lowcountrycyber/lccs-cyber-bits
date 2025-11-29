@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Secure, updated desktops reduce support calls and malware risk.
 
-**Related:** [[Patching]], [[Endpoint Protection]], [[MFA (Multi-Factor Authentication)]]
+**Related:** [Patching](067-patching), [Endpoint Protection](015-endpoint-protection), [MFA (Multi-Factor Authentication)](006-mfa)

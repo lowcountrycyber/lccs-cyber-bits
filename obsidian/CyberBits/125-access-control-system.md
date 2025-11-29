@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Controlling physical access protects equipment and sensitive spaces.
 
-**Related:** [[Physical Security]], [[Smart Lock]], [[Visitor Management]]
+**Related:** [Physical Security](086-physical-security), [Smart Lock](126-smart-lock), [Visitor Management](127-visitor-management)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Infected USB drives can spread malware or steal data instantly.
 
-**Related:** [[Malware]], [[Endpoint Protection]], [[Data Loss Prevention (DLP)]]
+**Related:** [Malware](057-malware), [Endpoint Protection](015-endpoint-protection), [Data Loss Prevention (DLP)](117-data-loss-prevention)

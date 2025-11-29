@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Open ports invite traffic; closing unnecessary ones reduces attack paths into your business.
 
-**Related:** [[Firewall]], [[Network Address Translation (NAT)]], [[Port Forwarding]]
+**Related:** [Firewall](002-firewall), [Network Address Translation (NAT)](023-nat), [Port Forwarding](029-port-forwarding)

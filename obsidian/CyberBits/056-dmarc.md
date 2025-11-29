@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Proper DMARC policy blocks spoofed mail that could trick staff or customers.
 
-**Related:** [[SPF]], [[DKIM]], [[Email Filtering]]
+**Related:** [SPF](054-spf), [DKIM](055-dkim), [Email Filtering](053-email-filtering)

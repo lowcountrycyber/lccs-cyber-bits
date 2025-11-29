@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Without TLS, logins and payments can be stolen in transit.
 
-**Related:** [[HTTPS]], [[Encryption]], [[Digital Certificate]]
+**Related:** [HTTPS](035-https), [Encryption](071-encryption), [Digital Certificate](036-certificate)

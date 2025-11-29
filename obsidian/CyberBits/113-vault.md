@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** A vault limits who can see sensitive credentials and keeps an audit trail.
 
-**Related:** [[Secrets Management]], [[Encryption]], [[Admin Account]]
+**Related:** [Secrets Management](112-secrets-management), [Encryption](071-encryption), [Admin Account](077-admin-account)

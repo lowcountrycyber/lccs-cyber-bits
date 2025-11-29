@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Encrypted email keeps invoices, contracts, and personal data private in transit.
 
-**Related:** [[Encryption]], [[Email Filtering]], [[Data Loss Prevention (DLP)]]
+**Related:** [Encryption](071-encryption), [Email Filtering](053-email-filtering), [Data Loss Prevention (DLP)](117-data-loss-prevention)

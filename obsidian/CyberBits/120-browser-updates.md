@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Outdated browsers are easy targets for drive-by attacks and web glitches.
 
-**Related:** [[Auto-Updates]], [[Phishing]], [[HTTPS]]
+**Related:** [Auto-Updates](068-auto-updates), [Phishing](014-phishing), [HTTPS](035-https)

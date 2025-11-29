@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** A stolen laptop with encryption is much less likely to become a data breach.
 
-**Related:** [[Laptop]], [[Encryption]], [[Stolen Device]]
+**Related:** [Laptop](041-laptop), [Encryption](071-encryption), [Stolen Device](094-stolen-device)

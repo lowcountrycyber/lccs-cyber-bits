@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Using HTTPS protects customer data and avoids browser security warnings.
 
-**Related:** [[SSL/TLS]], [[Browser Updates]], [[Digital Certificate]]
+**Related:** [SSL/TLS](034-ssl-tls), [Browser Updates](120-browser-updates), [Digital Certificate](036-certificate)

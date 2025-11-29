@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Unpatched systems are easy targets for ransomware and worms.
 
-**Related:** [[Endpoint Protection]], [[Auto-Updates]], [[Vulnerability Scan]]
+**Related:** [Endpoint Protection](015-endpoint-protection), [Auto-Updates](068-auto-updates), [Vulnerability Scan](069-vulnerability-scan)

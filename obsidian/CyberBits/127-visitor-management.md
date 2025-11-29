@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Logging visitors improves safety and helps investigations if something goes missing.
 
-**Related:** [[Access Control System]], [[Guest Wi-Fi]], [[Privacy Policy]]
+**Related:** [Access Control System](125-access-control-system), [Guest Wi-Fi](004-guest-wifi), [Privacy Policy](115-privacy-policy)

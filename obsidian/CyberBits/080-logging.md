@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Logs let you spot issues quickly and investigate incidents.
 
-**Related:** [[SIEM]], [[Incident Response]], [[Log Forwarding]]
+**Related:** [SIEM](082-siem), [Incident Response](083-incident-response), [Log Forwarding](081-log-forwarding)

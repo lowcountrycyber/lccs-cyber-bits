@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Trojans often steal credentials or open backdoors for attackers.
 
-**Related:** [[Malware]], [[Phishing]], [[Endpoint Protection]]
+**Related:** [Malware](057-malware), [Phishing](014-phishing), [Endpoint Protection](015-endpoint-protection)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Valid certificates prevent users from being tricked by fake login pages.
 
-**Related:** [[SSL/TLS]], [[HTTPS]], [[VPN (Virtual Private Network)]]
+**Related:** [SSL/TLS](034-ssl-tls), [HTTPS](035-https), [VPN (Virtual Private Network)](008-vpn)

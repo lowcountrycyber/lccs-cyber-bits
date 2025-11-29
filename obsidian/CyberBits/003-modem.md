@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Knowing where the modem ends and your network begins helps you see what you control versus what your ISP controls.
 
-**Related:** [[Router]], [[Internet Service Provider (ISP)]]
+**Related:** [Router](001-router), [Internet Service Provider (ISP)](011-isp)

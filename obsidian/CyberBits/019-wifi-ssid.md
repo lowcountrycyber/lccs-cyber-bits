@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Clear SSIDs help staff choose the right network and avoid risky lookalike networks.
 
-**Related:** [[Access Point]], [[Guest Wi-Fi]], [[Wi-Fi Security]]
+**Related:** [Access Point](018-access-point), [Guest Wi-Fi](004-guest-wifi), [Wi-Fi Security](087-wifi-security)

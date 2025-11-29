@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** A rehearsed response limits downtime and costs when something goes wrong.
 
-**Related:** [[Ransomware]], [[Logging]], [[Business Continuity Plan]]
+**Related:** [Ransomware](010-ransomware), [Logging](080-logging), [Business Continuity Plan](099-business-continuity-plan)

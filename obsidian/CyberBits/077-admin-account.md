@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Using admin accounts only when needed reduces accidental or malicious damage.
 
-**Related:** [[Standard Account]], [[MFA (Multi-Factor Authentication)]], [[Least Privilege]]
+**Related:** [Standard Account](078-standard-account), [MFA (Multi-Factor Authentication)](006-mfa), [Least Privilege](075-least-privilege)

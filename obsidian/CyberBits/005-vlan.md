@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Using VLANs lets you isolate risky devices like cameras or guest Wi-Fi from sensitive systems like POS and accounting.
 
-**Related:** [[Guest Wi-Fi]], [[Firewall]], [[Zero Trust]]
+**Related:** [Guest Wi-Fi](004-guest-wifi), [Firewall](002-firewall), [Zero Trust](013-zero-trust)

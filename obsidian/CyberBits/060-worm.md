@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Worms can quickly knock out many systems at once if patching is weak.
 
-**Related:** [[Malware]], [[Patching]], [[Network Switch]]
+**Related:** [Malware](057-malware), [Patching](067-patching), [Network Switch](017-network-switch)

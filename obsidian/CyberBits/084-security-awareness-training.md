@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Educated staff are less likely to click scams that lead to costly incidents.
 
-**Related:** [[Phishing]], [[Social Engineering]], [[Acceptable Use Policy]]
+**Related:** [Phishing](014-phishing), [Social Engineering](062-social-engineering), [Acceptable Use Policy](098-acceptable-use-policy)

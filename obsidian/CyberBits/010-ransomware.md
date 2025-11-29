@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Good backups, patching, and email protection can turn ransomware from a catastrophe into a recoverable incident.
 
-**Related:** [[Backup]], [[Phishing]], [[Endpoint Protection]]
+**Related:** [Backup](009-backup), [Phishing](014-phishing), [Endpoint Protection](015-endpoint-protection)

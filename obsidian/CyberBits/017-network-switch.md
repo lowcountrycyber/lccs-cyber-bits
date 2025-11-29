@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Reliable switching keeps printers, servers, and VoIP phones talking without drops.
 
-**Related:** [[Router]], [[Ethernet]], [[VLAN (Virtual LAN)]]
+**Related:** [Router](001-router), [Ethernet](028-ethernet), [VLAN (Virtual LAN)](005-vlan)

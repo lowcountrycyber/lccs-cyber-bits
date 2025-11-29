@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Clear rules reduce weak passwords and help with compliance.
 
-**Related:** [[Password]], [[Passphrase]], [[Acceptable Use Policy]]
+**Related:** [Password](063-password), [Passphrase](064-passphrase), [Acceptable Use Policy](098-acceptable-use-policy)

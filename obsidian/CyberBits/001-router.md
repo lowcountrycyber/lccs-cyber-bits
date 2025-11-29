@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** If your router is old or poorly configured, it's often the weakest link attackers target first.
 
-**Related:** [[Firewall]], [[Modem]], [[Guest Wi-Fi]]
+**Related:** [Firewall](002-firewall), [Modem](003-modem), [Guest Wi-Fi](004-guest-wifi)

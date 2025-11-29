@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Following PCI reduces fines and protects customer card information.
 
-**Related:** [[POS Terminal]], [[Firewall]], [[Encryption]]
+**Related:** [POS Terminal](047-pos-terminal), [Firewall](002-firewall), [Encryption](071-encryption)

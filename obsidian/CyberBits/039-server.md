@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Keeping servers patched and powered protects the apps your business relies on.
 
-**Related:** [[Patching]], [[Backup]], [[Uninterruptible Power Supply (UPS)]]
+**Related:** [Patching](067-patching), [Backup](009-backup), [Uninterruptible Power Supply (UPS)](042-ups)

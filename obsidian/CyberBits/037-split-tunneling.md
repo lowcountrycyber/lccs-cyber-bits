@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** It can improve speed but must be managed so sensitive traffic still stays protected.
 
-**Related:** [[VPN (Virtual Private Network)]], [[Bandwidth]], [[Remote Access]]
+**Related:** [VPN (Virtual Private Network)](008-vpn), [Bandwidth](021-bandwidth), [Remote Access](030-remote-access)

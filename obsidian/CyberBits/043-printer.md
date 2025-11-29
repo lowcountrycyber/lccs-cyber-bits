@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Keeping printer firmware updated closes easy backdoors attackers target.
 
-**Related:** [[Wi-Fi SSID]], [[Network Switch]], [[Patching]]
+**Related:** [Wi-Fi SSID](019-wifi-ssid), [Network Switch](017-network-switch), [Patching](067-patching)

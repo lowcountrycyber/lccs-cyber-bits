@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Misconfigured forwarding can expose devices to the internet; use it only when necessary.
 
-**Related:** [[Network Ports]], [[Network Address Translation (NAT)]], [[Remote Access]]
+**Related:** [Network Ports](012-ports), [Network Address Translation (NAT)](023-nat), [Remote Access](030-remote-access)

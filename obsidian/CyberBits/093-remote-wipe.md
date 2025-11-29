@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Being able to wipe devices quickly prevents data from falling into the wrong hands.
 
-**Related:** [[Mobile Device Management (MDM)]], [[Stolen Device]], [[Disk Encryption]]
+**Related:** [Mobile Device Management (MDM)](092-mobile-device-management), [Stolen Device](094-stolen-device), [Disk Encryption](072-disk-encryption)

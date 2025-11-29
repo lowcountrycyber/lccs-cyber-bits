@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** Using a password manager dramatically reduces weak passwords and makes staff onboarding/offboarding much cleaner.
 
-**Related:** [[MFA (Multi-Factor Authentication)]], [[Phishing]]
+**Related:** [MFA (Multi-Factor Authentication)](006-mfa), [Phishing](014-phishing)

@@ -15,4 +15,4 @@ tags:
 
 **Why it matters for small businesses / home offices:** A tested backup can turn a ransomware attack from a business-ending event into a bad day.
 
-**Related:** [[Ransomware]], [[Disaster Recovery]]
+**Related:** [Ransomware](010-ransomware), [Disaster Recovery](016-disaster-recovery)
