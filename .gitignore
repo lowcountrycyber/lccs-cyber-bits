@@ -1,7 +1,16 @@
-/*
-/.*
-!.gitignore
-!README.md
-!data/
+# Ignore Obsidian workspace metadata only
+.obsidian/
+obsidian/.obsidian/
+
+# Ignore Python local files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignore everything inside data except the public JSON file
 data/*
 !data/cyber_bits.json
+
+# Allow all markdown, tools, and index.md
+# (No need to explicitly unignore them because we removed the global "/*")
