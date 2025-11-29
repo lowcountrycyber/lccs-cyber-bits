@@ -7,7 +7,11 @@
     "audience_level": "beginner",
     "one_liner": "The router is the box that connects your home or office network to the internet and decides where traffic goes.",
     "owner_why_it_matters": "If your router is old or poorly configured, it's often the weakest link attackers target first.",
-    "related": ["firewall", "modem", "guest-wifi"]
+    "related": [
+      "firewall",
+      "modem",
+      "guest-wifi"
+    ]
   },
   {
     "id": 2,
@@ -17,7 +21,11 @@
     "audience_level": "beginner",
     "one_liner": "A firewall is a traffic bouncer that decides which network connections are allowed in or out.",
     "owner_why_it_matters": "A properly configured firewall can block most casual attacks and mistakes before they reach your devices.",
-    "related": ["router", "ports", "vpn"]
+    "related": [
+      "router",
+      "ports",
+      "vpn"
+    ]
   },
   {
     "id": 3,
@@ -27,7 +35,10 @@
     "audience_level": "beginner",
     "one_liner": "The modem is the device that speaks the language of your internet provider and brings the connection into your building.",
     "owner_why_it_matters": "Knowing where the modem ends and your network begins helps you see what you control versus what your ISP controls.",
-    "related": ["router", "isp"]
+    "related": [
+      "router",
+      "isp"
+    ]
   },
   {
     "id": 4,
@@ -37,7 +48,11 @@
     "audience_level": "beginner",
     "one_liner": "Guest Wi-Fi is a separate wireless network for visitors that keeps them away from your business devices and data.",
     "owner_why_it_matters": "Segregating guests from your main network makes it much harder for a visitor's infected device to harm your business.",
-    "related": ["router", "vlan", "zero-trust"]
+    "related": [
+      "router",
+      "vlan",
+      "zero-trust"
+    ]
   },
   {
     "id": 5,
@@ -47,7 +62,11 @@
     "audience_level": "intermediate",
     "one_liner": "A VLAN is a way to slice one physical network into multiple logical networks, each with its own rules and boundaries.",
     "owner_why_it_matters": "Using VLANs lets you isolate risky devices like cameras or guest Wi-Fi from sensitive systems like POS and accounting.",
-    "related": ["guest-wifi", "firewall", "zero-trust"]
+    "related": [
+      "guest-wifi",
+      "firewall",
+      "zero-trust"
+    ]
   },
   {
     "id": 6,
@@ -57,7 +76,10 @@
     "audience_level": "beginner",
     "one_liner": "MFA adds an extra step to logins, like a code on your phone, so a stolen password by itself isn't enough.",
     "owner_why_it_matters": "Turning on MFA for email, banking, and key business apps is the single highest-value, low-effort security upgrade.",
-    "related": ["password-manager", "phishing"]
+    "related": [
+      "password-manager",
+      "phishing"
+    ]
   },
   {
     "id": 7,
@@ -67,7 +89,10 @@
     "audience_level": "beginner",
     "one_liner": "A password manager is a secure vault that stores and fills your passwords so you don't reuse or write them on sticky notes.",
     "owner_why_it_matters": "Using a password manager dramatically reduces weak passwords and makes staff onboarding/offboarding much cleaner.",
-    "related": ["mfa", "phishing"]
+    "related": [
+      "mfa",
+      "phishing"
+    ]
   },
   {
     "id": 8,
@@ -77,7 +102,10 @@
     "audience_level": "intermediate",
     "one_liner": "A VPN creates an encrypted tunnel so remote staff can securely connect into your office network or cloud systems.",
     "owner_why_it_matters": "Without a proper VPN, staff often use risky workarounds from home or public Wi-Fi that expose your data.",
-    "related": ["zero-trust", "firewall"]
+    "related": [
+      "zero-trust",
+      "firewall"
+    ]
   },
   {
     "id": 9,
@@ -87,7 +115,10 @@
     "audience_level": "beginner",
     "one_liner": "Backups are copies of your important data stored somewhere else so you can recover from mistakes, failures, or attacks.",
     "owner_why_it_matters": "A tested backup can turn a ransomware attack from a business-ending event into a bad day.",
-    "related": ["ransomware", "disaster-recovery"]
+    "related": [
+      "ransomware",
+      "disaster-recovery"
+    ]
   },
   {
     "id": 10,
@@ -97,6 +128,1665 @@
     "audience_level": "beginner",
     "one_liner": "Ransomware is malware that encrypts your files and demands payment to unlock them.",
     "owner_why_it_matters": "Good backups, patching, and email protection can turn ransomware from a catastrophe into a recoverable incident.",
-    "related": ["backup", "phishing", "endpoint-protection"]
+    "related": [
+      "backup",
+      "phishing",
+      "endpoint-protection"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "isp",
+    "title": "Internet Service Provider (ISP)",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "An ISP is the company that sells you internet access and often provides the modem and basic support.",
+    "owner_why_it_matters": "Knowing what your ISP is responsible for helps you decide when to call them versus fixing your own gear.",
+    "related": [
+      "modem",
+      "router",
+      "bandwidth"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "ports",
+    "title": "Network Ports",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Ports are numbered doors that network traffic uses to reach the right app or service.",
+    "owner_why_it_matters": "Open ports invite traffic; closing unnecessary ones reduces attack paths into your business.",
+    "related": [
+      "firewall",
+      "nat",
+      "port-forwarding"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "zero-trust",
+    "title": "Zero Trust",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "Zero Trust means no device or user is trusted by default; every access is verified each time.",
+    "owner_why_it_matters": "Assuming nothing is safe by default limits how far an attacker can move if they get in.",
+    "related": [
+      "vlan",
+      "vpn",
+      "least-privilege",
+      "mfa"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "phishing",
+    "title": "Phishing",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Phishing is when attackers send fake emails or messages to trick you into giving up info or clicking malware.",
+    "owner_why_it_matters": "Most breaches start with a phish, so training and filters prevent expensive scams.",
+    "related": [
+      "mfa",
+      "password-manager",
+      "email-filtering",
+      "security-awareness-training"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "endpoint-protection",
+    "title": "Endpoint Protection",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Endpoint protection is security software on laptops and desktops that blocks malware and risky behavior.",
+    "owner_why_it_matters": "It is a primary shield against ransomware and other malware landing on employee devices.",
+    "related": [
+      "ransomware",
+      "malware",
+      "patching",
+      "auto-updates"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "disaster-recovery",
+    "title": "Disaster Recovery",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "Disaster recovery is the plan to restore systems and data after a major outage or attack.",
+    "owner_why_it_matters": "A clear recovery plan means downtime is measured in hours instead of days or weeks.",
+    "related": [
+      "backup",
+      "business-continuity-plan",
+      "cloud-backup"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "network-switch",
+    "title": "Network Switch",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A switch connects multiple wired devices so they can talk inside your network.",
+    "owner_why_it_matters": "Reliable switching keeps printers, servers, and VoIP phones talking without drops.",
+    "related": [
+      "router",
+      "ethernet",
+      "vlan"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "access-point",
+    "title": "Access Point",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "An access point is the dedicated device that broadcasts your Wi-Fi network.",
+    "owner_why_it_matters": "Good access points give stable coverage and let you separate guest and staff networks.",
+    "related": [
+      "router",
+      "wifi-ssid",
+      "wifi-security"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "wifi-ssid",
+    "title": "Wi-Fi SSID",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "An SSID is the network name you see when connecting to Wi-Fi.",
+    "owner_why_it_matters": "Clear SSIDs help staff choose the right network and avoid risky lookalike networks.",
+    "related": [
+      "access-point",
+      "guest-wifi",
+      "wifi-security"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "mesh-wifi",
+    "title": "Mesh Wi-Fi",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Mesh Wi-Fi uses multiple access points that work together to cover a whole building.",
+    "owner_why_it_matters": "Mesh reduces dead zones so staff and devices stay connected across the office or home.",
+    "related": [
+      "access-point",
+      "bandwidth",
+      "qos"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "bandwidth",
+    "title": "Bandwidth",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Bandwidth is the amount of data your connection can move at once.",
+    "owner_why_it_matters": "Too little bandwidth means slow cloud apps and choppy calls that frustrate customers and staff.",
+    "related": [
+      "qos",
+      "isp",
+      "vpn"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "qos",
+    "title": "Quality of Service (QoS)",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "QoS lets you prioritize important traffic like calls over less urgent traffic.",
+    "owner_why_it_matters": "Prioritizing voice or payment traffic prevents choppy calls and failed transactions during busy times.",
+    "related": [
+      "bandwidth",
+      "voip-phone",
+      "mesh-wifi"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "nat",
+    "title": "Network Address Translation (NAT)",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "NAT lets many devices share one public internet address by rewriting traffic.",
+    "owner_why_it_matters": "NAT hides internal devices from the internet, reducing exposure and saving IP costs.",
+    "related": [
+      "router",
+      "firewall",
+      "ports"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "dhcp",
+    "title": "DHCP",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "DHCP automatically hands out IP addresses to devices on your network.",
+    "owner_why_it_matters": "Automatic addressing prevents conflicts that knock devices offline.",
+    "related": [
+      "router",
+      "ip-addressing",
+      "static-ip"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "dns",
+    "title": "DNS",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "DNS translates easy names like example.com into the numeric addresses computers use.",
+    "owner_why_it_matters": "When DNS breaks, websites and apps feel down even if your internet is up.",
+    "related": [
+      "dhcp",
+      "dns-filtering",
+      "dynamic-dns"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "lan",
+    "title": "Local Area Network (LAN)",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "A LAN is your internal network that connects devices in one location.",
+    "owner_why_it_matters": "A healthy LAN keeps printers, storage, and apps reachable without lag.",
+    "related": [
+      "network-switch",
+      "ethernet",
+      "router"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "wan",
+    "title": "Wide Area Network (WAN)",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "A WAN links multiple sites or remote users over the internet or private circuits.",
+    "owner_why_it_matters": "Your WAN quality drives how usable remote offices and cloud apps feel.",
+    "related": [
+      "vpn",
+      "isp",
+      "router"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "ethernet",
+    "title": "Ethernet",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Ethernet is the wired standard for connecting devices with network cables.",
+    "owner_why_it_matters": "Wired connections are faster and more stable for servers, VoIP, and printers.",
+    "related": [
+      "network-switch",
+      "router",
+      "printer"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "port-forwarding",
+    "title": "Port Forwarding",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "Port forwarding tells your router to send specific incoming traffic to a device inside your network.",
+    "owner_why_it_matters": "Misconfigured forwarding can expose devices to the internet; use it only when necessary.",
+    "related": [
+      "ports",
+      "nat",
+      "remote-access"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "remote-access",
+    "title": "Remote Access",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Remote access lets staff reach office resources from home or on the road.",
+    "owner_why_it_matters": "Secure remote access keeps work moving without creating openings for attackers.",
+    "related": [
+      "vpn",
+      "port-forwarding",
+      "remote-desktop"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "dynamic-dns",
+    "title": "Dynamic DNS",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "Dynamic DNS updates a domain name when your public IP address changes.",
+    "owner_why_it_matters": "It keeps remote access working even when your ISP changes your IP.",
+    "related": [
+      "remote-access",
+      "port-forwarding",
+      "dns"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "ipv4",
+    "title": "IPv4",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "IPv4 is the older, widely used internet addressing system with limited addresses.",
+    "owner_why_it_matters": "Most gear still relies on IPv4, so you need to support it even as IPv6 grows.",
+    "related": [
+      "dhcp",
+      "nat",
+      "ipv6"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "ipv6",
+    "title": "IPv6",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "IPv6 is the newer addressing system with a huge pool of internet addresses.",
+    "owner_why_it_matters": "New services and ISPs are moving to IPv6, so your gear should handle it.",
+    "related": [
+      "dhcp",
+      "router",
+      "ipv4"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "ssl-tls",
+    "title": "SSL/TLS",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "SSL/TLS is the encryption that protects data in transit between browsers and services.",
+    "owner_why_it_matters": "Without TLS, logins and payments can be stolen in transit.",
+    "related": [
+      "https",
+      "encryption",
+      "certificate"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "https",
+    "title": "HTTPS",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "HTTPS is the secure, encrypted version of HTTP used by websites.",
+    "owner_why_it_matters": "Using HTTPS protects customer data and avoids browser security warnings.",
+    "related": [
+      "ssl-tls",
+      "browser-updates",
+      "certificate"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "certificate",
+    "title": "Digital Certificate",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A certificate is a digital ID that proves a website or service is who it claims to be.",
+    "owner_why_it_matters": "Valid certificates prevent users from being tricked by fake login pages.",
+    "related": [
+      "ssl-tls",
+      "https",
+      "vpn"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "split-tunneling",
+    "title": "Split Tunneling",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "Split tunneling lets some traffic go through a VPN while other traffic goes direct to the internet.",
+    "owner_why_it_matters": "It can improve speed but must be managed so sensitive traffic still stays protected.",
+    "related": [
+      "vpn",
+      "bandwidth",
+      "remote-access"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "nas",
+    "title": "Network-Attached Storage (NAS)",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A NAS is a small file server for shared storage and backups on your network.",
+    "owner_why_it_matters": "Central storage simplifies backups and access control for business files.",
+    "related": [
+      "backup",
+      "raid",
+      "cloud-backup"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "server",
+    "title": "Server",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A server is a computer that provides shared services like files, apps, or databases.",
+    "owner_why_it_matters": "Keeping servers patched and powered protects the apps your business relies on.",
+    "related": [
+      "patching",
+      "backup",
+      "ups"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "desktop-workstation",
+    "title": "Desktop / Workstation",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A desktop or workstation is a fixed employee computer used for daily work.",
+    "owner_why_it_matters": "Secure, updated desktops reduce support calls and malware risk.",
+    "related": [
+      "patching",
+      "endpoint-protection",
+      "mfa"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "laptop",
+    "title": "Laptop",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A laptop is a portable computer staff use on the go.",
+    "owner_why_it_matters": "Laptops are easy to lose; encryption and MFA keep lost devices from becoming data leaks.",
+    "related": [
+      "remote-work-policy",
+      "disk-encryption",
+      "mfa"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "ups",
+    "title": "Uninterruptible Power Supply (UPS)",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A UPS is a battery that keeps equipment running through short power losses.",
+    "owner_why_it_matters": "It prevents sudden shutdowns that corrupt servers, storage, and network gear.",
+    "related": [
+      "server",
+      "nas",
+      "network-switch"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "printer",
+    "title": "Network Printer",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A network printer can be reached over Wi-Fi or Ethernet by multiple users.",
+    "owner_why_it_matters": "Keeping printer firmware updated closes easy backdoors attackers target.",
+    "related": [
+      "wifi-ssid",
+      "network-switch",
+      "patching"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "security-camera",
+    "title": "Security Camera",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A security camera records video for safety and monitoring.",
+    "owner_why_it_matters": "Cameras should be isolated so a hacked camera can't reach business systems.",
+    "related": [
+      "vlan",
+      "nvr",
+      "cloud-backup"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "smart-tv",
+    "title": "Smart TV",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A smart TV is an internet-connected display for streaming or signage.",
+    "owner_why_it_matters": "Putting smart TVs on guest or IoT networks keeps them from mixing with business data.",
+    "related": [
+      "guest-wifi",
+      "wifi-security",
+      "iot-hub"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "iot-hub",
+    "title": "IoT Hub",
+    "category": "hardware",
+    "audience_level": "intermediate",
+    "one_liner": "An IoT hub connects and manages smart devices like sensors, locks, or lights.",
+    "owner_why_it_matters": "Keeping IoT gear segmented prevents a hacked gadget from reaching business apps.",
+    "related": [
+      "wifi-security",
+      "vlan",
+      "smart-tv"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "pos-terminal",
+    "title": "POS Terminal",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A POS terminal is the card reader or register that processes customer payments.",
+    "owner_why_it_matters": "Segregating POS devices reduces the chance of card data theft and keeps you compliant.",
+    "related": [
+      "pci-dss",
+      "firewall",
+      "vlan"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "voip-phone",
+    "title": "VoIP Phone",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A VoIP phone makes calls over the internet instead of phone lines.",
+    "owner_why_it_matters": "Proper QoS and power keep calls clear so you don't miss sales or support calls.",
+    "related": [
+      "qos",
+      "poe",
+      "network-switch"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "remote-desktop",
+    "title": "Remote Desktop",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "Remote desktop lets you view and control a computer from afar.",
+    "owner_why_it_matters": "Securing remote desktop with VPN and MFA prevents easy break-ins.",
+    "related": [
+      "remote-access",
+      "vpn",
+      "mfa"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "spear-phishing",
+    "title": "Spear Phishing",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Spear phishing is a targeted scam email crafted for a specific person or role.",
+    "owner_why_it_matters": "Targeted scams often bypass generic filters, so training and MFA are key.",
+    "related": [
+      "phishing",
+      "bec",
+      "security-awareness-training"
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "bec",
+    "title": "Business Email Compromise (BEC)",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "BEC is when attackers hijack or spoof business email to redirect money or data.",
+    "owner_why_it_matters": "A single fake invoice can quietly move thousands of dollars out of your account.",
+    "related": [
+      "phishing",
+      "mfa",
+      "email-filtering"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "spam-filtering",
+    "title": "Spam Filtering",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Spam filtering blocks junk and malicious email before it reaches users.",
+    "owner_why_it_matters": "Fewer bad emails means fewer chances for staff to click something dangerous.",
+    "related": [
+      "phishing",
+      "email-filtering",
+      "dmarc"
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "email-filtering",
+    "title": "Email Filtering",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Email filtering inspects messages for spam, malware, and impersonation.",
+    "owner_why_it_matters": "Good filtering removes most threats before they reach employees' inboxes.",
+    "related": [
+      "phishing",
+      "spam-filtering",
+      "spf"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "spf",
+    "title": "SPF",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "SPF is a DNS record that lists which servers can send email for your domain.",
+    "owner_why_it_matters": "SPF reduces spoofed mail that can trick staff or customers.",
+    "related": [
+      "dkim",
+      "dmarc",
+      "email-filtering"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "dkim",
+    "title": "DKIM",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "DKIM signs outgoing email so recipients can verify it wasn't altered.",
+    "owner_why_it_matters": "Signed email builds trust and helps filters catch forgeries.",
+    "related": [
+      "spf",
+      "dmarc",
+      "email-filtering"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "dmarc",
+    "title": "DMARC",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "DMARC tells receivers how to handle email that fails SPF or DKIM checks.",
+    "owner_why_it_matters": "Proper DMARC policy blocks spoofed mail that could trick staff or customers.",
+    "related": [
+      "spf",
+      "dkim",
+      "email-filtering"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "malware",
+    "title": "Malware",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Malware is malicious software designed to harm or steal from your systems.",
+    "owner_why_it_matters": "Malware can steal data or halt operations, costing time and money.",
+    "related": [
+      "ransomware",
+      "endpoint-protection",
+      "phishing"
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "virus",
+    "title": "Computer Virus",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A virus is malware that spreads by infecting files or programs.",
+    "owner_why_it_matters": "Viruses can corrupt data and slow systems, hurting productivity.",
+    "related": [
+      "malware",
+      "patching",
+      "endpoint-protection"
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "trojan",
+    "title": "Trojan",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A trojan is malware that pretends to be legitimate software to get installed.",
+    "owner_why_it_matters": "Trojans often steal credentials or open backdoors for attackers.",
+    "related": [
+      "malware",
+      "phishing",
+      "endpoint-protection"
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "worm",
+    "title": "Worm",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A worm is malware that spreads itself across networks without user action.",
+    "owner_why_it_matters": "Worms can quickly knock out many systems at once if patching is weak.",
+    "related": [
+      "malware",
+      "patching",
+      "network-switch"
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "spyware",
+    "title": "Spyware",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Spyware secretly monitors activity or steals information from a device.",
+    "owner_why_it_matters": "Spyware can capture customer data or logins without being noticed.",
+    "related": [
+      "malware",
+      "privacy-policy",
+      "endpoint-protection"
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "social-engineering",
+    "title": "Social Engineering",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Social engineering is tricking people into giving access or information.",
+    "owner_why_it_matters": "Even strong tech fails if staff can be convinced to bypass it.",
+    "related": [
+      "phishing",
+      "security-awareness-training",
+      "password"
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "password",
+    "title": "Password",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A password is the secret phrase used to prove who you are when logging in.",
+    "owner_why_it_matters": "Weak or reused passwords are an easy way in for attackers.",
+    "related": [
+      "password-manager",
+      "mfa",
+      "password-policy"
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "passphrase",
+    "title": "Passphrase",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A passphrase is a longer, easier-to-remember password made of several words.",
+    "owner_why_it_matters": "Long passphrases are stronger and harder to guess or crack.",
+    "related": [
+      "password-manager",
+      "password-policy",
+      "mfa"
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "password-policy",
+    "title": "Password Policy",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "A password policy sets rules for creating and managing passwords.",
+    "owner_why_it_matters": "Clear rules reduce weak passwords and help with compliance.",
+    "related": [
+      "password",
+      "passphrase",
+      "acceptable-use-policy"
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "credential-stuffing",
+    "title": "Credential Stuffing",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "Credential stuffing is using stolen passwords from one site to break into another.",
+    "owner_why_it_matters": "Reused passwords let attackers hop from old breaches into your business accounts.",
+    "related": [
+      "password-manager",
+      "mfa",
+      "password-policy"
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "patching",
+    "title": "Patching",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Patching means installing updates that fix security bugs and stability issues.",
+    "owner_why_it_matters": "Unpatched systems are easy targets for ransomware and worms.",
+    "related": [
+      "endpoint-protection",
+      "auto-updates",
+      "vulnerability-scan"
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "auto-updates",
+    "title": "Auto-Updates",
+    "category": "automation",
+    "audience_level": "beginner",
+    "one_liner": "Auto-updates automatically install new software patches.",
+    "owner_why_it_matters": "Automation keeps systems protected without waiting for manual work.",
+    "related": [
+      "patching",
+      "endpoint-protection",
+      "browser-updates"
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "vulnerability-scan",
+    "title": "Vulnerability Scan",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A vulnerability scan checks systems for known security holes.",
+    "owner_why_it_matters": "Finding issues before attackers do lets you patch on your schedule.",
+    "related": [
+      "patching",
+      "asset-inventory",
+      "pen-test"
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "pen-test",
+    "title": "Penetration Test",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A penetration test simulates an attack to find weaknesses in your defenses.",
+    "owner_why_it_matters": "Pen tests reveal gaps so you can fix them before criminals exploit them.",
+    "related": [
+      "vulnerability-scan",
+      "firewall",
+      "incident-response"
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "encryption",
+    "title": "Encryption",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Encryption scrambles data so only authorized people can read it.",
+    "owner_why_it_matters": "Encrypting data in transit and at rest protects customer and financial info.",
+    "related": [
+      "ssl-tls",
+      "disk-encryption",
+      "vpn"
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "disk-encryption",
+    "title": "Disk Encryption",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Disk encryption protects the contents of a device if it is lost or stolen.",
+    "owner_why_it_matters": "A stolen laptop with encryption is much less likely to become a data breach.",
+    "related": [
+      "laptop",
+      "encryption",
+      "stolen-device"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "email-encryption",
+    "title": "Email Encryption",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "Email encryption protects sensitive messages so only intended recipients can read them.",
+    "owner_why_it_matters": "Encrypted email keeps invoices, contracts, and personal data private in transit.",
+    "related": [
+      "encryption",
+      "email-filtering",
+      "data-loss-prevention"
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "data-classification",
+    "title": "Data Classification",
+    "category": "policy",
+    "audience_level": "intermediate",
+    "one_liner": "Data classification labels information by sensitivity, like public or confidential.",
+    "owner_why_it_matters": "Knowing what is sensitive guides who can access it and how it is protected.",
+    "related": [
+      "data-retention",
+      "privacy-policy",
+      "least-privilege"
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "least-privilege",
+    "title": "Least Privilege",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "Least privilege means users get only the access they need and no more.",
+    "owner_why_it_matters": "Limiting access shrinks the damage a stolen account can cause.",
+    "related": [
+      "role-based-access-control",
+      "admin-account",
+      "zero-trust"
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "role-based-access-control",
+    "title": "Role-Based Access Control (RBAC)",
+    "category": "policy",
+    "audience_level": "intermediate",
+    "one_liner": "RBAC assigns permissions based on job roles instead of individuals.",
+    "owner_why_it_matters": "Roles keep access consistent and make onboarding and offboarding faster.",
+    "related": [
+      "least-privilege",
+      "standard-account",
+      "service-account"
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "admin-account",
+    "title": "Admin Account",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "An admin account can change settings, install software, and manage other accounts.",
+    "owner_why_it_matters": "Using admin accounts only when needed reduces accidental or malicious damage.",
+    "related": [
+      "standard-account",
+      "mfa",
+      "least-privilege"
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "standard-account",
+    "title": "Standard Account",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "A standard account is an everyday user login with limited permissions.",
+    "owner_why_it_matters": "Working in standard accounts lowers the blast radius of mistakes or malware.",
+    "related": [
+      "admin-account",
+      "role-based-access-control",
+      "mfa"
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "service-account",
+    "title": "Service Account",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "A service account is used by applications or automations instead of people.",
+    "owner_why_it_matters": "Tracking service accounts prevents forgotten logins that attackers can abuse.",
+    "related": [
+      "api-key-management",
+      "role-based-access-control",
+      "logging"
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "logging",
+    "title": "Logging",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Logging records what systems and users are doing over time.",
+    "owner_why_it_matters": "Logs let you spot issues quickly and investigate incidents.",
+    "related": [
+      "siem",
+      "incident-response",
+      "log-forwarding"
+    ]
+  },
+  {
+    "id": 81,
+    "slug": "log-forwarding",
+    "title": "Log Forwarding",
+    "category": "automation",
+    "audience_level": "intermediate",
+    "one_liner": "Log forwarding sends copies of logs to a central place for analysis.",
+    "owner_why_it_matters": "Central logs make it easier to catch problems and meet compliance needs.",
+    "related": [
+      "logging",
+      "siem",
+      "monitoring-alerts"
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "siem",
+    "title": "SIEM",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A SIEM collects and correlates logs to spot suspicious activity.",
+    "owner_why_it_matters": "SIEM alerts you to attacks early so you can respond before damage grows.",
+    "related": [
+      "logging",
+      "incident-response",
+      "monitoring-alerts"
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "incident-response",
+    "title": "Incident Response",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "Incident response is the process for handling security events and outages.",
+    "owner_why_it_matters": "A rehearsed response limits downtime and costs when something goes wrong.",
+    "related": [
+      "ransomware",
+      "logging",
+      "business-continuity-plan"
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "security-awareness-training",
+    "title": "Security Awareness Training",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "Security awareness training teaches staff how to spot and avoid common threats.",
+    "owner_why_it_matters": "Educated staff are less likely to click scams that lead to costly incidents.",
+    "related": [
+      "phishing",
+      "social-engineering",
+      "acceptable-use-policy"
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "usb-security",
+    "title": "USB Security",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "USB security covers safe use of flash drives and external devices.",
+    "owner_why_it_matters": "Infected USB drives can spread malware or steal data instantly.",
+    "related": [
+      "malware",
+      "endpoint-protection",
+      "data-loss-prevention"
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "physical-security",
+    "title": "Physical Security",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Physical security protects buildings, rooms, and hardware from unauthorized access.",
+    "owner_why_it_matters": "Locking down spaces prevents theft or tampering with your equipment.",
+    "related": [
+      "security-camera",
+      "access-control-system",
+      "smart-lock"
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "wifi-security",
+    "title": "Wi-Fi Security",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Wi-Fi security covers encryption, passwords, and settings that protect wireless networks.",
+    "owner_why_it_matters": "Secure Wi-Fi keeps neighbors or attackers from snooping on your traffic.",
+    "related": [
+      "wifi-ssid",
+      "guest-wifi",
+      "wpa3"
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "wpa3",
+    "title": "WPA3",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "WPA3 is the latest Wi-Fi security standard that improves encryption and login strength.",
+    "owner_why_it_matters": "Using WPA3 makes it harder for attackers to crack your Wi-Fi password.",
+    "related": [
+      "wifi-security",
+      "router",
+      "access-point"
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "static-ip",
+    "title": "Static IP",
+    "category": "network",
+    "audience_level": "intermediate",
+    "one_liner": "A static IP is an address that does not change over time.",
+    "owner_why_it_matters": "Static IPs make remote access and services more reliable.",
+    "related": [
+      "dhcp",
+      "port-forwarding",
+      "remote-access"
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "remote-work-policy",
+    "title": "Remote Work Policy",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "A remote work policy sets expectations and requirements for working offsite.",
+    "owner_why_it_matters": "Clear rules reduce risk when staff connect from home networks.",
+    "related": [
+      "vpn",
+      "mfa",
+      "byod-policy"
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "byod-policy",
+    "title": "BYOD Policy",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "A BYOD policy defines how personal devices can be used for work.",
+    "owner_why_it_matters": "Rules for personal devices prevent data leaks and support headaches.",
+    "related": [
+      "remote-work-policy",
+      "mobile-device-management",
+      "acceptable-use-policy"
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "mobile-device-management",
+    "title": "Mobile Device Management (MDM)",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "MDM is software that enforces security settings on phones and tablets.",
+    "owner_why_it_matters": "MDM lets you wipe lost phones and ensure work data stays protected.",
+    "related": [
+      "byod-policy",
+      "remote-wipe",
+      "mfa"
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "remote-wipe",
+    "title": "Remote Wipe",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Remote wipe lets you erase a device's data if it is lost or stolen.",
+    "owner_why_it_matters": "Being able to wipe devices quickly prevents data from falling into the wrong hands.",
+    "related": [
+      "mobile-device-management",
+      "stolen-device",
+      "disk-encryption"
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "stolen-device",
+    "title": "Stolen Device",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "A stolen device incident is when a laptop or phone goes missing and may expose data.",
+    "owner_why_it_matters": "Planning for lost devices reduces legal and reputational fallout.",
+    "related": [
+      "disk-encryption",
+      "remote-wipe",
+      "laptop"
+    ]
+  },
+  {
+    "id": 95,
+    "slug": "asset-inventory",
+    "title": "Asset Inventory",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Asset inventory is the list of all hardware and software you own or manage.",
+    "owner_why_it_matters": "You can't protect or update what you don't know you have.",
+    "related": [
+      "vulnerability-scan",
+      "device-onboarding",
+      "device-offboarding"
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "device-onboarding",
+    "title": "Device Onboarding",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Device onboarding is the process of setting up new equipment with the right settings and security.",
+    "owner_why_it_matters": "Consistent onboarding prevents misconfigurations that lead to downtime or breaches.",
+    "related": [
+      "asset-inventory",
+      "patching",
+      "standard-account"
+    ]
+  },
+  {
+    "id": 97,
+    "slug": "device-offboarding",
+    "title": "Device Offboarding",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Device offboarding is retiring or repurposing equipment safely.",
+    "owner_why_it_matters": "Proper offboarding ensures data is wiped and access is removed before devices leave.",
+    "related": [
+      "asset-inventory",
+      "admin-account",
+      "password-manager"
+    ]
+  },
+  {
+    "id": 98,
+    "slug": "acceptable-use-policy",
+    "title": "Acceptable Use Policy",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "An acceptable use policy explains how staff may use company devices and networks.",
+    "owner_why_it_matters": "Clear guidance reduces risky behavior and supports disciplinary action when needed.",
+    "related": [
+      "security-awareness-training",
+      "password-policy",
+      "byod-policy"
+    ]
+  },
+  {
+    "id": 99,
+    "slug": "business-continuity-plan",
+    "title": "Business Continuity Plan",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "A business continuity plan outlines how the business keeps operating during disruptions.",
+    "owner_why_it_matters": "Planning ahead keeps revenue and customer service running during outages.",
+    "related": [
+      "disaster-recovery",
+      "backup",
+      "incident-response"
+    ]
+  },
+  {
+    "id": 100,
+    "slug": "change-management",
+    "title": "Change Management",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "Change management is the process for planning and approving IT changes.",
+    "owner_why_it_matters": "Structured changes reduce outages from rushed or untested updates.",
+    "related": [
+      "patching",
+      "documentation",
+      "runbook"
+    ]
+  },
+  {
+    "id": 101,
+    "slug": "documentation",
+    "title": "Documentation",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Documentation records how systems are set up and how to operate them.",
+    "owner_why_it_matters": "Good docs speed up troubleshooting and onboarding new staff or vendors.",
+    "related": [
+      "change-management",
+      "runbook",
+      "incident-response"
+    ]
+  },
+  {
+    "id": 102,
+    "slug": "runbook",
+    "title": "Runbook",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "A runbook is a step-by-step guide for handling routine tasks or incidents.",
+    "owner_why_it_matters": "Runbooks make responses repeatable so fixes are fast and consistent.",
+    "related": [
+      "incident-response",
+      "backup",
+      "documentation"
+    ]
+  },
+  {
+    "id": 103,
+    "slug": "data-retention",
+    "title": "Data Retention",
+    "category": "policy",
+    "audience_level": "intermediate",
+    "one_liner": "Data retention sets how long you keep different kinds of data.",
+    "owner_why_it_matters": "Keeping data only as long as needed reduces legal risk and storage cost.",
+    "related": [
+      "data-classification",
+      "backup",
+      "compliance-audit"
+    ]
+  },
+  {
+    "id": 104,
+    "slug": "vendor-management",
+    "title": "Vendor Management",
+    "category": "ops",
+    "audience_level": "intermediate",
+    "one_liner": "Vendor management tracks third-party providers, their access, and their performance.",
+    "owner_why_it_matters": "Managing vendors reduces surprises from outages or security gaps in outside services.",
+    "related": [
+      "sla",
+      "compliance-audit",
+      "incident-response"
+    ]
+  },
+  {
+    "id": 105,
+    "slug": "sla",
+    "title": "Service Level Agreement (SLA)",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "An SLA is a contract that defines service expectations like uptime and response times.",
+    "owner_why_it_matters": "Clear SLAs set accountability with ISPs and vendors when things break.",
+    "related": [
+      "isp",
+      "vendor-management",
+      "uptime-monitoring"
+    ]
+  },
+  {
+    "id": 106,
+    "slug": "uptime-monitoring",
+    "title": "Uptime Monitoring",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Uptime monitoring checks whether your websites or services are reachable.",
+    "owner_why_it_matters": "Early alerts let you fix outages before customers notice.",
+    "related": [
+      "monitoring-alerts",
+      "sla",
+      "rmm"
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "monitoring-alerts",
+    "title": "Monitoring Alerts",
+    "category": "automation",
+    "audience_level": "beginner",
+    "one_liner": "Monitoring alerts notify you when systems are down or behaving abnormally.",
+    "owner_why_it_matters": "Fast alerts reduce downtime and lost revenue.",
+    "related": [
+      "logging",
+      "uptime-monitoring",
+      "rmm"
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "rmm",
+    "title": "Remote Monitoring and Management (RMM)",
+    "category": "automation",
+    "audience_level": "intermediate",
+    "one_liner": "RMM tools let you monitor, patch, and support devices remotely.",
+    "owner_why_it_matters": "Remote management keeps devices healthy without onsite visits.",
+    "related": [
+      "monitoring-alerts",
+      "patching",
+      "remote-access"
+    ]
+  },
+  {
+    "id": 109,
+    "slug": "automation-platform",
+    "title": "Automation Platform",
+    "category": "automation",
+    "audience_level": "intermediate",
+    "one_liner": "An automation platform connects apps and triggers workflows without manual steps.",
+    "owner_why_it_matters": "Automations save time and reduce mistakes in repetitive tasks.",
+    "related": [
+      "webhook",
+      "api-key-management",
+      "scheduled-tasks"
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "webhook",
+    "title": "Webhook",
+    "category": "automation",
+    "audience_level": "intermediate",
+    "one_liner": "A webhook is a push notification from one service to another when something happens.",
+    "owner_why_it_matters": "Webhooks let systems talk to each other instantly without polling or manual exports.",
+    "related": [
+      "automation-platform",
+      "api-key-management",
+      "monitoring-alerts"
+    ]
+  },
+  {
+    "id": 111,
+    "slug": "api-key-management",
+    "title": "API Key Management",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "API key management controls and rotates the secret tokens apps use to talk to each other.",
+    "owner_why_it_matters": "Protecting keys prevents outsiders from abusing your integrations or data.",
+    "related": [
+      "service-account",
+      "secrets-management",
+      "automation-platform"
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "secrets-management",
+    "title": "Secrets Management",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "Secrets management stores passwords, keys, and certificates securely for apps and admins.",
+    "owner_why_it_matters": "Centralized secrets reduce hardcoded passwords and accidental leaks.",
+    "related": [
+      "api-key-management",
+      "vault",
+      "password-manager"
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "vault",
+    "title": "Secrets Vault",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "A secrets vault is the protected storage location for credentials and keys.",
+    "owner_why_it_matters": "A vault limits who can see sensitive credentials and keeps an audit trail.",
+    "related": [
+      "secrets-management",
+      "encryption",
+      "admin-account"
+    ]
+  },
+  {
+    "id": 114,
+    "slug": "scheduled-tasks",
+    "title": "Scheduled Tasks",
+    "category": "automation",
+    "audience_level": "beginner",
+    "one_liner": "Scheduled tasks run jobs automatically at set times.",
+    "owner_why_it_matters": "Automating routine jobs like backups reduces human error and saves time.",
+    "related": [
+      "auto-updates",
+      "backup",
+      "automation-platform"
+    ]
+  },
+  {
+    "id": 115,
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "category": "policy",
+    "audience_level": "beginner",
+    "one_liner": "A privacy policy explains what data you collect and how you use and protect it.",
+    "owner_why_it_matters": "Clear privacy practices build trust and reduce legal exposure.",
+    "related": [
+      "data-classification",
+      "data-retention",
+      "spyware"
+    ]
+  },
+  {
+    "id": 116,
+    "slug": "compliance-audit",
+    "title": "Compliance Audit",
+    "category": "policy",
+    "audience_level": "intermediate",
+    "one_liner": "A compliance audit checks whether your practices meet required standards or laws.",
+    "owner_why_it_matters": "Regular audits catch gaps before regulators or customers do.",
+    "related": [
+      "vendor-management",
+      "data-retention",
+      "incident-response"
+    ]
+  },
+  {
+    "id": 117,
+    "slug": "data-loss-prevention",
+    "title": "Data Loss Prevention (DLP)",
+    "category": "security",
+    "audience_level": "intermediate",
+    "one_liner": "DLP tools detect and block sensitive data from leaving through email, web, or devices.",
+    "owner_why_it_matters": "DLP helps stop accidental leaks of customer or financial information.",
+    "related": [
+      "email-encryption",
+      "usb-security",
+      "logging"
+    ]
+  },
+  {
+    "id": 118,
+    "slug": "cloud-backup",
+    "title": "Cloud Backup",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Cloud backup stores copies of your data in a secure offsite service.",
+    "owner_why_it_matters": "Offsite backups protect you if local devices are stolen, flooded, or encrypted by ransomware.",
+    "related": [
+      "backup",
+      "disaster-recovery",
+      "nas"
+    ]
+  },
+  {
+    "id": 119,
+    "slug": "dns-filtering",
+    "title": "DNS Filtering",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "DNS filtering blocks devices from reaching known malicious or risky domains.",
+    "owner_why_it_matters": "Filtering stops many malware and phishing sites before a page even loads.",
+    "related": [
+      "dns",
+      "malware",
+      "phishing"
+    ]
+  },
+  {
+    "id": 120,
+    "slug": "browser-updates",
+    "title": "Browser Updates",
+    "category": "security",
+    "audience_level": "beginner",
+    "one_liner": "Browser updates patch security flaws and improve compatibility for web apps.",
+    "owner_why_it_matters": "Outdated browsers are easy targets for drive-by attacks and web glitches.",
+    "related": [
+      "auto-updates",
+      "phishing",
+      "https"
+    ]
+  },
+  {
+    "id": 121,
+    "slug": "raid",
+    "title": "RAID",
+    "category": "hardware",
+    "audience_level": "intermediate",
+    "one_liner": "RAID combines multiple disks for redundancy or speed in servers and NAS devices.",
+    "owner_why_it_matters": "RAID keeps storage available if one disk fails, buying time to replace it.",
+    "related": [
+      "nas",
+      "backup",
+      "server"
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "nvr",
+    "title": "Network Video Recorder (NVR)",
+    "category": "hardware",
+    "audience_level": "intermediate",
+    "one_liner": "An NVR stores video from IP security cameras on your network.",
+    "owner_why_it_matters": "Isolating NVRs and backing them up protects evidence and privacy.",
+    "related": [
+      "security-camera",
+      "vlan",
+      "cloud-backup"
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "pci-dss",
+    "title": "PCI DSS",
+    "category": "policy",
+    "audience_level": "intermediate",
+    "one_liner": "PCI DSS is the security standard for handling payment card data.",
+    "owner_why_it_matters": "Following PCI reduces fines and protects customer card information.",
+    "related": [
+      "pos-terminal",
+      "firewall",
+      "encryption"
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "poe",
+    "title": "Power over Ethernet (PoE)",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "PoE sends power and data over one Ethernet cable to devices like phones or cameras.",
+    "owner_why_it_matters": "PoE simplifies installs and keeps phones or cameras up during power issues when paired with a UPS.",
+    "related": [
+      "voip-phone",
+      "network-switch",
+      "access-point"
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "access-control-system",
+    "title": "Access Control System",
+    "category": "hardware",
+    "audience_level": "intermediate",
+    "one_liner": "An access control system manages badges, keypads, or apps to unlock doors.",
+    "owner_why_it_matters": "Controlling physical access protects equipment and sensitive spaces.",
+    "related": [
+      "physical-security",
+      "smart-lock",
+      "visitor-management"
+    ]
+  },
+  {
+    "id": 126,
+    "slug": "smart-lock",
+    "title": "Smart Lock",
+    "category": "hardware",
+    "audience_level": "beginner",
+    "one_liner": "A smart lock is a networked door lock that can be controlled or monitored remotely.",
+    "owner_why_it_matters": "Smart locks let you grant or revoke access quickly without rekeying.",
+    "related": [
+      "access-control-system",
+      "physical-security",
+      "wifi-security"
+    ]
+  },
+  {
+    "id": 127,
+    "slug": "visitor-management",
+    "title": "Visitor Management",
+    "category": "ops",
+    "audience_level": "beginner",
+    "one_liner": "Visitor management tracks who enters your space and where they can go.",
+    "owner_why_it_matters": "Logging visitors improves safety and helps investigations if something goes missing.",
+    "related": [
+      "access-control-system",
+      "guest-wifi",
+      "privacy-policy"
+    ]
+  },
+  {
+    "id": 128,
+    "slug": "ip-addressing",
+    "title": "IP Addressing",
+    "category": "network",
+    "audience_level": "beginner",
+    "one_liner": "IP addressing is the numbering system that lets devices find each other on networks.",
+    "owner_why_it_matters": "Understanding addressing helps you troubleshoot why devices can't reach each other.",
+    "related": [
+      "dhcp",
+      "ipv4",
+      "ipv6"
+    ]
   }
 ]
